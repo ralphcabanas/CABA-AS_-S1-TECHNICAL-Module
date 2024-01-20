@@ -1,0 +1,73 @@
+img {
+  width: 250px; 
+  height: 274px;
+  float: left; 
+  margin-right: 20px; 
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+header {
+  font-family: var(--font-family);
+  color: var(--secondary-color);
+  background: var(--primary-color);
+}
+
+h1 {
+  font-size: 36px;
+  font-weight: bold;
+  margin: 10px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 10px;
+}
+
+li {
+  display: list-item;
+  font-size: 17px;
+  margin: 10px;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  font-size: 19px;
+  
+}
+
+.contact {
+  color: var(--secondary-color);
+  list-style-type: none;
+}
+
+.skills {
+  margin-top: 3px;
+}
+
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+button {
+    position: fixed;
+    bottom: 40px;
+    right: 70px;
+    margin: 0;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: aliceblue;
+    
+  }
